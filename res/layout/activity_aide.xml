@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AideActivity">
+
+
+    <TextView
+        android:text="Page D'aide"
+        android:textColor="@color/vert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+
+        android:id="@+id/btnConnection"
+
+        android:text="comment se connecter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnInscrire"
+        android:text="comment s'inscrire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnPrendre"
+        android:text="comment prendre un rendez-vous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnConsulter"
+        android:text="comment se passe la conversation avec le docteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        >
+    </Button>
+</LinearLayout>

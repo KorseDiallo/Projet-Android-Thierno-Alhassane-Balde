@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".BDActivity">
+
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_marginTop="10dp"
+        android:hint="Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:layout_marginTop="10dp"
+        android:hint="Prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtProfession"
+        android:layout_marginTop="10dp"
+        android:hint="Profesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtMaladie"
+        android:layout_marginTop="10dp"
+        android:hint="Nom de la Maladie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    </EditText>
+
+    <Button
+    android:id="@+id/btnajouter"
+    android:layout_marginTop="10dp"
+        android:background="@color/vert"
+    android:text="creez votre rendez-vous"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFFFF"
+    />
+
+    <Button
+        android:id="@+id/btnmodifier"
+        android:layout_marginTop="10dp"
+        android:background="@color/vert"
+        android:text="modifier votre rendez-vous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/btnsupprimer"
+        android:layout_marginTop="10dp"
+        android:background="@color/vert"
+        android:text="supprimer votre rendez-vous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/btnliste"
+        android:layout_marginTop="10dp"
+        android:background="@color/vert"
+        android:text="liste  rendez-vous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

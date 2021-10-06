@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/Presentation"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="A propos de nous"
+        android:orderInCategory="100"
+        />
+
+    <item        android:id="@+id/consulter"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Consultation"
+        android:orderInCategory="100"
+        />
+    <item        android:id="@+id/liste_consultation"
+        android:title="Gestion de rendez-vous"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/Geolocalisation"
+        android:title="Voir les hôpitaux"
+        android:orderInCategory="100"
+        />
+    <item        android:id="@+id/aide"
+        android:title="Aide"
+        android:orderInCategory="100"
+        />
+</menu>

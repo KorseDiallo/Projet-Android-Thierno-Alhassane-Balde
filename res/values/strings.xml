@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gestion Hôpital</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="presentation">GES_HOSPITAL est une solution au Sénégal qui permet au patient la prise de rendez-vous en ligne
+chez un médecin. Le medecin a la possibilité de gérer son compte, d’annuler
+ou de modifier son rendez-vous. Il permet de gagner du temps, de réduire
+le taux de rendez-vous non honorés, d’apporter un service nouveau à leur patient.</string>
+</resources>
